@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF转Word文档</title>
+</head>
+<body>
+<h1>PDF转Word文档</h1>
+<form action="api/pdf-to-word" method="post" enctype="multipart/form-data">
+    <label for="pdfFile">选择要转换的PDF文件：</label>
+    <input type="file" name="pdfFile" id="pdfFile" accept=".pdf">
+    <br><br>
+    <input type="submit" value="转换">
+</form>
+</body>
+</html>
